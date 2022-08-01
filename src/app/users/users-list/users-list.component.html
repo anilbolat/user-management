@@ -1,0 +1,23 @@
+<div class="row">
+  <div class="col-lg-12">
+    <p>User Management</p>
+  </div>
+</div>
+<div class="row">
+  <div class="col-lg-12">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th scope="col">ID</th>
+          <th scope="col">First Name</th>
+        </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let user of users">
+        <td>{{ user.id }}</td>
+        <td>{{ user.first_name }}</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

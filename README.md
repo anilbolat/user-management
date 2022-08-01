@@ -1,3 +1,42 @@
+# NOTES
+
+Angular to implement a complete UI application to show tips & tricks about;
+
+- Generating a boilerplate project
+- Show Component-based development
+- Design Routing
+- RBAC on UI side
+- Interceptors for Authorization
+- Consuming a REST API to implement an interactive UI
+
+## What we did
+- user list icin component yarattik.
+- users'a routing ekledik.
+- login component yarattik.
+- users'a tikladiginda eger login degilse, login sayfasina yonlendirdik.
+- user-list ve login icin service yazdik, beeceptor kullandik.
+- request gonderirken, token'i http header'a ekledik.
+
+
+## Component, service, model...
+that's all we need to create.
+if you need a page, which is component in angular,
+- ng g c NAME
+- 
+
+## What to search on internet for more components for your project.
+ - ngx bootstrap -> https://valor-software.com/ngx-bootstrap/#/
+ - twitter bootstrap 5 examples
+ - mdb -> https://mdbootstrap.com/docs/standard/
+
+## ngx bootstrap 
+ - ngx bootstrap'ten aldigin componentlari alip direkt kullanabilirsin. gerisi configuration...
+
+## Websites
+ - jwt.io -> generate token
+ - beeceptor -> mock api icin -> https://beeceptor.com/console/falcao-fake-api
+
+
 # UserManagement
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
